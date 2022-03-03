@@ -2,14 +2,14 @@
 Predict Student Grades: Given a data set of 33 attributes for students. There are many attributes but we likely don't want to consider all of them so when trying to predict a students grade trim the data set down only into the attributes we need and predict their grades.
 
 
-Data Set Information:
+#Data Set Information:
 
 This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por). In [Cortez and Silva, 2008], the two datasets were modeled under binary/five-level classification and regression tasks. Important note: the target attribute G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details).
 
 
-Attribute Information:
+#Attribute Information:
 
-# Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
+Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets: <br>
 1 school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
 2 sex - student's sex (binary: 'F' - female or 'M' - male)
 3 age - student's age (numeric: from 15 to 22)
